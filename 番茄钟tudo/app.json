@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/text/text",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d3334a",
+    "navigationBarTitleText": "粥计划",
+    "navigationBarTextStyle":"white"
+  
+ 
+  },
+  "tabBar":{
+    "color":"#11cd6e",
+    "selectedColor":"#a9b7b7",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/text/text",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/11.png"
+    },{
+      "pagePath":"pages/logs/logs",
+      "iconPath":"images/3.png",
+      "selectedIconPath":"images/33.png"
+    },{
+       "pagePath":"pages/index/index",
+       "iconPath":"images/2.png",
+       "selectedIconPath":"images/22.png"
+       
+    }]
+  }
+
+}

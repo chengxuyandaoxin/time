@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="这是你的笔记本..." />
+
+</view>
